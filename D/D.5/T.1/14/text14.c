@@ -1,0 +1,11 @@
+//混合运算
+#include<stdio.h>
+int main()
+{
+    int iInt=1;
+    char cChar='A';
+    float fFloat=2.2f;
+    double result=iInt+cChar+fFloat;
+    printf("%f\n",result);
+    return 0;
+}
